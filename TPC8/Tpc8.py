@@ -12,11 +12,11 @@ for i in lista2:
 
 print(listasemcomum)
 
-texto = "Era uma vez uma criança muito feliz"
+texto = "Vivia há já não poucos anos algures num concelho do Ribatejo um pequeno lavrador e negociante de gado chamado Manuel Pires Vigário"
 lista3 = [i for i in texto.split(" ") if len(i) > 3]
 print(lista3)
 
-lista = ['ruizinho', 'pedrinho', 'joaozinho', 'paulinho']
+lista = ['anaconda', 'burro', 'cavalo', 'macaco']
 listaRes = [(lista.index(i),i) for i in lista]
 print(listaRes)
 
